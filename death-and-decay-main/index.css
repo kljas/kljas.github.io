@@ -1,0 +1,31 @@
+div.main {
+    margin-left: 160px; /* То же, что и ширина боковой панели */
+    padding: 0px 10px;
+  }
+
+aside {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: solid black;
+}
+
+div.card-header {
+    background-color: #26F9A0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #26F9A0;
+}
+
+.grey {
+    background-color: gray;
+    margin: 1ch;
+}
